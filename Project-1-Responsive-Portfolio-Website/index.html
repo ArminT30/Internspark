@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armin Taranum | Frontend Developer Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="spinner-border text-light"></div>
+        <p class="mt-3">Loading Portfolio...</p>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div id="progressBar"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                Armin Taranum
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#education">Education</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+                <button id="themeBtn"
+                    class="btn btn-outline-light ms-lg-3">
+                    <i class="bi bi-moon-stars-fill"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero -->
+    <section id="home"
+        class="hero-section">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 text-center">
+
+                    <img src="images/profile.jpg"
+                       class="profile-img img-fluid"
+                          alt="Profile Image">    
+                </div>
+
+                <div class="col-lg-6">
+
+                    <span class="badge hero-badge">
+                        Frontend Developer
+                    </span>
+
+                    <h1 class="display-4 fw-bold mt-3">
+
+                        Hi,
+                        I'm
+                        <span class="text-primary">
+                            Armin Taranum
+                        </span>
+
+                    </h1>
+
+                    <h3 class="typing-text">
+                        <span id="typing"></span>
+                    </h3>
+
+                    <p class="lead mt-4">
+
+                        I am a Second Year Computer Science and Engineering
+                        student at Presidency University with a passion for
+                        creating modern, responsive and interactive websites
+                        using HTML, CSS, JavaScript and Bootstrap.
+
+                    </p>
+
+                    <div class="mt-4">
+
+                        <a href="#projects"
+                            class="btn btn-primary btn-lg me-3">
+                            View Projects
+                        </a>
+
+                        <a href="#contact"
+                            class="btn btn-outline-light btn-lg">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                    <div class="social-icons mt-4">
+
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about"
+        class="container py-5 reveal">
+
+        <div class="glass-card p-5">
+
+            <h2 class="section-title">
+                About Me
+            </h2>
+
+            <p class="mt-4">
+
+                I am a dedicated Computer Science and Engineering student who
+                enjoys developing responsive and user-friendly websites.
+                I have experience working with HTML5, CSS3, JavaScript and
+                Bootstrap to create attractive web interfaces.
+
+            </p>
+
+            <p>
+
+                I enjoy solving real-world problems through web development,
+                continuously learning new technologies and improving my frontend
+                development skills by building practical projects.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Education -->
+    <section id="education"
+        class="container py-5 reveal">
+
+        <h2 class="section-title text-center">
+            Education
+        </h2>
+
+        <div class="row justify-content-center mt-5">
+
+            <div class="col-lg-8">
+
+                <div class="glass-card p-4">
+
+                    <h4>
+                        Bachelor of Technology
+                    </h4>
+
+                    <h5>
+                        Computer Science and Engineering
+                    </h5>
+
+                    <p class="mb-1">
+                        Presidency University
+                    </p>
+
+                    <p class="mb-1">
+                        Second Year Student
+                    </p>
+
+                    <p>
+                        Bengaluru, Karnataka
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills"
+        class="container py-5 reveal">
+
+        <h2 class="section-title text-center mb-5">
+
+            Skills
+
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="skill">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>HTML5</span>
+
+                        <span>95%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:95%">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="skill mt-4">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>CSS3</span>
+
+                        <span>90%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:90%">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="skill mt-4">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>JavaScript</span>
+
+                        <span>85%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:85%">
+                        </div>
+
+                    </div>
+
+                </div>
+                                <div class="skill mt-4">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>Bootstrap 5</span>
+
+                        <span>90%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:90%">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="skill mt-4">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>Responsive Web Design</span>
+
+                        <span>88%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:88%">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="skill">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>DOM Manipulation</span>
+
+                        <span>85%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:85%">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="skill mt-4">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>API Integration</span>
+
+                        <span>80%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:80%">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="skill mt-4">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>Problem Solving</span>
+
+                        <span>90%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:90%">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="skill mt-4">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>UI Design</span>
+
+                        <span>82%</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"
+                            style="width:82%">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects"
+        class="container py-5 reveal">
+
+        <h2 class="section-title text-center mb-5">
+
+            My Projects
+
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- Expense Tracker -->
+
+            <div class="col-lg-6">
+
+                <div class="glass-card project-card p-4 h-100">
+
+                    <img src="images/expense-tracker.png"
+                        class="img-fluid rounded mb-3"
+                        alt="Expense Tracker">
+
+                    <h4>Expense Tracker</h4>
+
+                    <p>
+
+                        A responsive expense management application
+                        that helps users record income and expenses,
+                        calculate balance and store data using
+                        Local Storage.
+
+                    </p>
+
+                    <h6>Technologies Used</h6>
+
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-warning text-dark">JavaScript</span>
+                    <span class="badge bg-info text-dark">Bootstrap</span>
+
+                </div>
+
+            </div>
+
+            <!-- Wish Card -->
+
+            <div class="col-lg-6">
+
+                <div class="glass-card project-card p-4 h-100">
+
+                    <img src="images/wishcard.png"
+                        class="img-fluid rounded mb-3"
+                        alt="Wish Card">
+
+                    <h4>Online Wish Card Maker</h4>
+
+                    <p>
+
+                        Create personalized greeting cards by
+                        entering a name, message and selecting
+                        different card styles.
+
+                    </p>
+
+                    <h6>Technologies Used</h6>
+
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-warning text-dark">JavaScript</span>
+                    <span class="badge bg-info text-dark">Bootstrap</span>
+
+                </div>
+
+            </div>
+
+            <!-- Weather App -->
+
+            <div class="col-lg-6">
+
+                <div class="glass-card project-card p-4 h-100">
+
+                    <img src="images/weather-app.png"
+                        class="img-fluid rounded mb-3"
+                        alt="Weather App">
+
+                    <h4>Weather App</h4>
+
+                    <p>
+
+                        Search weather information of any city
+                        with temperature, humidity, wind speed
+                        and weather condition using a weather API.
+
+                    </p>
+
+                    <h6>Technologies Used</h6>
+
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-warning text-dark">JavaScript</span>
+                    <span class="badge bg-info text-dark">Bootstrap</span>
+
+                </div>
+
+            </div>
+
+            <!-- Netflix Clone -->
+
+            <div class="col-lg-6">
+
+                <div class="glass-card project-card p-4 h-100">
+
+                    <img src="images/netflix.png"
+                        class="img-fluid rounded mb-3"
+                        alt="Netflix UI Clone">
+
+                    <h4>Netflix UI Clone</h4>
+
+                    <p>
+
+                        A responsive Netflix-inspired homepage
+                        featuring a hero banner, movie sections,
+                        navigation bar and hover animations.
+
+                    </p>
+
+                    <h6>Technologies Used</h6>
+
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-warning text-dark">JavaScript</span>
+                    <span class="badge bg-info text-dark">Bootstrap</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Achievements -->
+
+    <section id="achievements"
+        class="container py-5 reveal">
+
+        <h2 class="section-title text-center">
+
+            Achievements
+
+        </h2>
+
+        <div class="row mt-5">
+
+            <div class="col-md-4">
+
+                <div class="glass-card text-center p-4">
+
+                    <i class="bi bi-laptop display-5"></i>
+
+                    <h4 class="mt-3">
+
+                        4+ Projects
+
+                    </h4>
+
+                    <p>
+
+                        Developed responsive frontend web
+                        applications using HTML, CSS,
+                        JavaScript and Bootstrap.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="glass-card text-center p-4">
+
+                    <i class="bi bi-award display-5"></i>
+
+                    <h4 class="mt-3">
+
+                        Frontend Internship
+
+                    </h4>
+
+                    <p>
+
+                        Successfully completed practical
+                        frontend development tasks and
+                        projects during internship.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="glass-card text-center p-4">
+
+                    <i class="bi bi-lightbulb display-5"></i>
+
+                    <h4 class="mt-3">
+
+                        Continuous Learner
+
+                    </h4>
+
+                    <p>
+
+                        Passionate about learning modern web
+                        development and improving UI design
+                        skills.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- Certifications -->
+    <section id="certifications" class="container py-5 reveal">
+
+        <h2 class="section-title text-center">
+            Certifications
+        </h2>
+
+        <div class="row mt-5">
+
+            <div class="col-md-4">
+                <div class="glass-card text-center p-4 h-100">
+                    <i class="bi bi-patch-check-fill display-5 text-primary"></i>
+
+                    <h4 class="mt-3">
+                        Frontend Development Internship
+                    </h4>
+
+                    <p>
+                        Successfully completed frontend development
+                        internship by building responsive web applications
+                        using HTML, CSS, JavaScript and Bootstrap.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="glass-card text-center p-4 h-100">
+                    <i class="bi bi-code-slash display-5 text-success"></i>
+
+                    <h4 class="mt-3">
+                        Responsive Web Design
+                    </h4>
+
+                    <p>
+                        Developed responsive websites following
+                        mobile-first design principles.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="glass-card text-center p-4 h-100">
+                    <i class="bi bi-laptop-fill display-5 text-warning"></i>
+
+                    <h4 class="mt-3">
+                        Web Development
+                    </h4>
+
+                    <p>
+                        Hands-on experience in creating interactive
+                        frontend projects with Bootstrap and JavaScript.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact"
+        class="container py-5 reveal">
+
+        <div class="glass-card p-5">
+
+            <h2 class="section-title text-center">
+                Contact Me
+            </h2>
+
+            <p class="text-center mb-4">
+                Have a project or opportunity? Feel free to contact me.
+            </p>
+
+            <form id="contactForm">
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <input
+                            type="text"
+                            id="name"
+                            class="form-control glass-input"
+                            placeholder="Your Name"
+                            required>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+
+                        <input
+                            type="email"
+                            id="email"
+                            class="form-control glass-input"
+                            placeholder="Your Email"
+                            required>
+
+                    </div>
+
+                </div>
+
+                <input
+                    type="text"
+                    id="subject"
+                    class="form-control glass-input mb-3"
+                    placeholder="Subject"
+                    required>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    class="form-control glass-input mb-4"
+                    placeholder="Write your message..."
+                    required></textarea>
+
+                <div class="text-center">
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary btn-lg">
+
+                        Send Message
+
+                    </button>
+
+                </div>
+
+                <p
+                    id="formMessage"
+                    class="text-center mt-3">
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Scroll To Top -->
+
+    <button id="scrollTopBtn">
+
+        <i class="bi bi-arrow-up"></i>
+
+    </button>
+
+    <!-- Footer -->
+
+    <footer class="py-5">
+
+        <div class="container text-center">
+
+            <h3>
+
+                Armin Taranum
+
+            </h3>
+
+            <p>
+
+                Second Year Computer Science and Engineering Student
+
+            </p>
+
+            <div class="footer-icons my-4">
+
+                <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+            </div>
+
+            <hr>
+
+            <p class="mb-0">
+
+                © 2026 Armin Taranum. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
